@@ -109,6 +109,7 @@ class App extends Component {
                       birthday={c.birthday}
                       gender={c.gender}
                       job={c.job}
+                      stateRefresh={this.stateRefresh}
                     />
                   )
                 })
